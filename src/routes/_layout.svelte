@@ -5,9 +5,6 @@
 	export let segment;
 	export let date;
 
-console.log('title', title)
-console.log('date', date)	
-console.log('segment', segment)
 
 </script>
 
