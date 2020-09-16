@@ -2,46 +2,46 @@
   "bundler": "rollup",
   "shimport": "1.0.1",
   "assets": {
-    "main": "client.8d8e68c6.js"
+    "main": "client.b3f8edf8.js"
   },
   "css": {
     "main": [
-      "assets/client-81773508.css"
+      "assets/client-4ce962bb.css"
     ]
   },
   "dependencies": {
     "index.svelte": [
-      "index.65286e49.js",
-      "client.103fb2f3.js",
+      "index.daaf8804.js",
+      "client.fcd3ac29.js",
       "assets/index-95f728c8.css",
-      "assets/client-81773508.css"
+      "assets/client-4ce962bb.css"
     ],
     "projects.svelte": [
-      "projects.6db04482.js",
-      "client.103fb2f3.js",
-      "assets/client-81773508.css"
+      "projects.87ca834e.js",
+      "client.fcd3ac29.js",
+      "assets/client-4ce962bb.css"
     ],
     "about.svelte": [
-      "about.4159622c.js",
-      "client.103fb2f3.js",
-      "assets/client-81773508.css"
+      "about.9b612083.js",
+      "client.fcd3ac29.js",
+      "assets/client-4ce962bb.css"
     ],
     "blog/index.svelte": [
-      "index.3c8d6994.js",
-      "client.103fb2f3.js",
+      "index.c687ea26.js",
+      "client.fcd3ac29.js",
       "assets/index-598fd344.css",
-      "assets/client-81773508.css"
+      "assets/client-4ce962bb.css"
     ],
     "blog/what-i-learned-working-at-walmart.svx": [
-      "what-i-learned-working-at-walmart.2f40bac4.js",
-      "client.103fb2f3.js",
-      "assets/what-i-learned-working-at-walmart-665d89b8.css",
-      "assets/client-81773508.css"
+      "what-i-learned-working-at-walmart.3a5ef873.js",
+      "client.fcd3ac29.js",
+      "assets/what-i-learned-working-at-walmart-bba59e81.css",
+      "assets/client-4ce962bb.css"
     ],
     "uses.svelte": [
-      "uses.871c3b46.js",
-      "client.103fb2f3.js",
-      "assets/client-81773508.css"
+      "uses.ce447b47.js",
+      "client.fcd3ac29.js",
+      "assets/client-4ce962bb.css"
     ]
   }
 }

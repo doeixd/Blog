@@ -10,15 +10,13 @@
 
 <style>
 	#post {
-		position: relative;
-		max-width: 56rem;
-		background-color: #0a0e14;
 		margin: 0 auto;
 		box-sizing: border-box;
 		font-family: monospace;
 		display: flex;
 		flex-direction: column;
 		/* font-size: 1.3rem; */
+		padding: 0 7ch
 	}
 
 

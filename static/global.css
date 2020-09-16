@@ -108,10 +108,12 @@ pre {
 	/* color: #C2d94c; */
 	font-style: italic;
 }
-/* 
-@media (min-width: 400px) {
 
-} */
+@media (min-width: 400px) {
+  html {
+    font-size: 19px;
+  }
+}
 
 
 
