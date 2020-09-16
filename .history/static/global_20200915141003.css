@@ -1,0 +1,228 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding-top: 1em;
+	font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #f3f3ec;
+	height: calc(100% - 6px - 1em);
+	background: #0a0e14
+}
+
+body::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	height: 6px;
+	width: 100%;
+	background-image: linear-gradient(to right, #29a2ff 25%, #9dff00 50%, #ff7420 75%);
+}
+
+
+h2 {
+  
+  font-size: 2.3rem;
+}
+
+p {
+  margin-left: 1em
+}
+
+h1 {
+	font-size: 3em;
+	margin: 0.1em auto .9em auto;
+	font-weight: bold;
+	line-height: 1.2;
+	width: fit-content;
+}
+
+a {
+	color: #39bae6;
+}
+
+code {
+	font-size: calc(1em - 2px);
+	padding: 0.2em 0.4em;
+	border-radius: 2px;
+	filter: saturate(2.9) brightness(1.2);
+}
+
+
+pre {
+    background-color: hsl(216deg 22% 9%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.date { 
+	/* color: #C2d94c; */
+	font-style: italic;
+}
+
+@media (min-width: 400px) {
+	body {
+		font-size: 16px;
+	}
+}
+
+
+
+/////////////////////////////
+
+
+
+
+
+code[class*="language-"],
+pre[class*="language-"] {
+
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+
+
+@media print {
+  code[class*="language-"],
+  pre[class*="language-"] {
+    text-shadow: none;
+  }
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+}
+
+
+:not(pre) > code[class*="language-"] {
+  padding: 0.1em;
+  border-radius: 0.3em;
+  white-space: normal;
+}
+
+
+.token.comment {
+  color: #626A73;
+  font-style: italic
+}
+
+.token.string {
+  color: #C2D94C;
+  
+}
+
+.token.symbol {
+  color: #C2D94C;
+  
+}
+
+.token.char {
+  color: #95E6CB;
+  
+}
+
+.token.constant {
+  color: #95E6CB;
+  
+}
+
+.token.number {
+  color: #E6B450;
+  
+}
+
+.token.builtin {
+  color: #E6B450;
+  
+}
+
+.token.variable {
+  color: #B3B1AD;
+  
+}
+
+.token.operator {
+  color: #F29668;
+  
+}
+
+.token.punctuation {
+  color: #0889b6;
+  
+}
+
+.token.function {
+  color: #FFB454;
+  
+}
+
+.token.attr-name {
+  color: #FFB454;
+  
+}
+
+.token.tag {
+  color: #39BAE6;
+  
+}
+
+.token.property {
+  color: #39BAE6;
+  
+}
+
+.token.inserted {
+  color: #91B362;
+  
+}
+
+.token.changed {
+  color: #6994BF;
+  
+}
+
+.token.deleted {
+  color: #D96C75;
+  
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.keyword {
+	color: #F29668
+}

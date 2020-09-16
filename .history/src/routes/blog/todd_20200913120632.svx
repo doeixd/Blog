@@ -1,0 +1,23 @@
+---
+title: America
+slug: home
+date: 2020/08/15
+---
+
+
+# Great success!
+
+![Borat](great-success.png)
+
+this is america
+**Try editing this file (src/routes/index.svelte) to test live reloading.**
+
+
+```ts
+function hello () {
+	console.log('this is america')
+	return `hey ${hey}` ? hey : hey
+}
+```
+
+

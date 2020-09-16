@@ -1,0 +1,30 @@
+---
+title: What I Learned Working at Walmart
+slug: what-i-learned-working-at-walmart
+date: 2020/09/14
+---
+
+## How to manage employees you dont trust
+
+## People are prideful / will find meaning in anything. 
+
+## when working elbo
+
+
+
+
+![Borat](great-success.png)
+
+this is america
+**Try editing this file (src/routes/index.svelte) to test live reloading.**
+
+
+```ts
+function hello () {
+	console.log('this is america')
+	return `hey ${hey}` ? hey : hey
+}
+```
+
+
+

@@ -1,0 +1,66 @@
+---
+title: Things I Learned Working at Walmart
+slug: what-i-learned-working-at-walmart
+date: 2020/09/14
+---
+
+## How to manage employees you don't trust
+
+### Make Your Emplyees Replaceable 
+I started at looking for work near the start of spring 2020, which as you can imagine was very difficult. I applied to every job being offered in Green Bay, from pushing carts at Target, to selling insurance. No matter where I applied, I was always rejected. That was until I applied for a full time position working in the freezer department at Sam's Club. The position wasn't ideal, it didn't pay very well (less than my previous job), it was physically demanding, and it brought me no closer to achieving my goal of becoming a software developer. However, it was a job, and the money from my stimulus check was just beginning to run out. Despite the downsides I took the job, whilst telling myself I could quit at anytime when a better opportunity came along (which never did).
+
+On my first day, I was taken back to the freezer department and my boss (one of many) spent less than five minutes demonstrating how to arrange merchandise in a way that looked pleasing, he
+told me they called this *zoneing*. Then he walked away and allowed me to continue *zoneing* until the end of my shift. As soon as he walked away, I thought to myself *I wonder when I will
+recieve the rest of my training?* However, this turned out to be the only training I was going to receive. Unlike previous jobs, working for Walmart meant I had but one single responsibility. I wasn't given any idea of a bigger picture, or how my role contributes to the rest of the department, or any responsibilities I could optionally take on. Like a *Pure Funtion*,* I was to
+take the messy shelves and make them nicer, with no awareness of any outside state. I later realized the vast majority of employees responsibilities were also like this. The advantages of which were immediate, any employee could be swapped out with no issues, and a new employee could get up to speed in no time at all. In an industry with high turn over, this is crucial.
+
+
+### Never Trust, Always Verify
+After a few days working there, I was introduced to the seven people who's jobs it was to supervise me. The supervision tree looked something like this:
+
+```
+Store Manager
+│
+┝ Department Co-Manager
+┕ Other Department Co-Manager
+ │
+ ┝ Assist Co-Manager
+ ┝ Other Assist Co-Manager
+ ┝ Other Other Assist Co-Manager
+ ┕ Other Other Other Assist Co-Manager
+   │
+   ┕ Me
+```
+
+
+
+
+## People are prideful / will find meaning in anything.
+No matter how inconsequential their lives are, people find meaning in what they do
+
+
+
+## when working elbow to elbow with others its impossible to hate them especially when you are both under the thumb of someone else
+
+## People will work insane hours for very little money because they need it, but they wont want to be seen as someone who isn't a team player
+
+
+
+
+
+
+![Borat](great-success.png)
+
+This is America
+**Try editing this file (src/routes/index.svelte) to test live reloading.**
+
+
+```ts
+function hello () {
+	console.log('this is america')
+	return `hey ${hey}` ? hey : hey
+}
+```
+
+
+

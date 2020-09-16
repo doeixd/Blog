@@ -1,0 +1,40 @@
+---
+title: What I Learned Working at Walmart
+slug: what-i-learned-working-at-walmart
+date: 2020/09/14
+---
+
+## How to manage employees you dont trust
+* have them do only one thing
+* lots of verification and management 
+
+
+## People are prideful / will find meaning in anything. 
+No matter how inconsequential their lives are, people find meaning in what they do
+
+
+
+## when working elboe to elboe withothers its imposible to hate them especially when you are both under the thumb of someone else
+
+## People will work insane hours for very little money because they need it, but they wont want to be seen as someone who isnt a team player
+
+
+
+
+
+
+![Borat](great-success.png)
+
+this is america
+**Try editing this file (src/routes/index.svelte) to test live reloading.**
+
+
+```ts
+function hello () {
+	console.log('this is america')
+	return `hey ${hey}` ? hey : hey
+}
+```
+
+
+
