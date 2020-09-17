@@ -2,7 +2,6 @@
 	import Nav from '../components/Nav.svelte';
 
 	export let title;
-	export let segment;
 	export let date;
 
 
