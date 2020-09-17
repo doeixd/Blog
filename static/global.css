@@ -61,15 +61,15 @@ h3::before {
 	list-style-type: none;	
 }
 
-  #post li::before {
-    content: '* ';
-    color: #ff7420;
-    font-weight: bold;
-  }
+#post li::before {
+  content: '* ';
+  color: #ff7420;
+  font-weight: bold;
+}
 
 
 
-p{
+p {
   font-size: 1rem;
   text-indent: 4ch;
   margin-bottom: 1rem;

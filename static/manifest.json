@@ -1,9 +1,10 @@
 {
-	"background_color": "#ffffff",
+	"background_color": "",
 	"theme_color": "#333333",
-	"name": "TODO",
-	"short_name": "TODO",
-	"display": "minimal-ui",
+	"name": "PWM Glenn",
+	"short_name": "PWM Glenn",
+	"description": "PWM Glenn's home on the web",
+	"display": "standalone",
 	"start_url": "/",
 	"icons": [
 		{
