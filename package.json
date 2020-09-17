@@ -1,6 +1,6 @@
 {
-	"name": "TODO",
-	"description": "TODO",
+	"name": "pwmglenn",
+	"description": "PWM Glenn",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "sapper dev --ext '.svelte .svx'",
