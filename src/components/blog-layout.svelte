@@ -43,17 +43,6 @@
 		color: #8e969f;
 	}
 
-	h2 {
-		font-weight: bold;
-		padding: .5rem;
-		color: #daff24;
-	}
-
-	main {
-		display: block;
-	}
-
-
 </style>
 
 
