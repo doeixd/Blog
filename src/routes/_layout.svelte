@@ -1,9 +1,7 @@
 <script>
 	import Nav from '../components/Nav.svelte';
 
-	export let title;
 	export let segment;
-	export let date;
 
 
 </script>
@@ -26,16 +24,12 @@
 
 <!-- \\\\\\\\\\\\\\\\\\Template///////////////////// -->
 <svelte:head>
-<title>{title}</title>
+<title>{segment}</title>
 </svelte:head>
 
 
 <Nav {segment}/>
 
 <main>
-	{#if title}
-	<h1>{title}</h1>
-	<div>{date}</div>
-	{/if}
 	<slot></slot>
 </main>
