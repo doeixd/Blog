@@ -32,7 +32,7 @@
 		position: fixed;
 		bottom: 10px;
 		left: 2px;
-		font-size: 1.1rem;
+		font-size: 1.16rem;
 		font-family: monospace;
 		background-color: #0a0e14;
 		border-radius: 5px;

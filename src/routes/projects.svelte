@@ -1,4 +1,10 @@
+<style>
+ul {
+	margin: 0 auto;
+	width: fit-content;
+}
 
+</style>
 
 <svelte:head>
 	<title>Projects</title>

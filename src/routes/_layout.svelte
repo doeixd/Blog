@@ -10,14 +10,9 @@
 	main {
 		position: relative;
 		max-width: 56em;
-		background-color: #0a0e14;
-		padding: 2rem 1rem 1rem 1rem;
+		padding: 2rem 2ch 0 2ch;
 		margin: 0 auto;
-		box-sizing: border-box;
 		font-family: monospace;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
 	}
 </style>
 

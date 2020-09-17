@@ -12,9 +12,9 @@
 
 <style>
 	ul {
-		margin: 0 0 1em 0;
+		margin: 0 auto 1em auto;
 		line-height: 1.5;
-		font-size: 1.3em;
+		font-size: 1.1rem;
 		font-weight: bold;
 		display: block;
 		width: 23rem;
