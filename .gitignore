@@ -1,5 +1,5 @@
 node_modules
-.history
+/.history/
 .DS_Store
 /node_modules/
 /src/node_modules/@sapper/
