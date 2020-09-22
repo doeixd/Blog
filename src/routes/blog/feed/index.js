@@ -5,7 +5,7 @@ import posts from "../_posts";
 const feed = new RSS({
   title: `PWM Glenn's Blog`,
   description: `PWM Glenn's Blog, typically about tech, and his life`,
-  feed_url: `http://pwmglenn.com/blog/rss.xml`,
+  feed_url: `http://pwmglenn.com/blog/feed`,
   site_url: `http://pwmglenn.com`,
   image_url: `http://pwmglenn.com/logo-512.png`,
   managingEditor: `PWM Glenn`,
@@ -31,7 +31,7 @@ const xml = feed.xml();
 
 export function get(req, res) {
   res.writeHead(200, {
-    "Content-Type": "application/rss+xml",
+    "Content-Type": "application/xml",
   });
 
   res.end(xml);
