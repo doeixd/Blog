@@ -4,26 +4,23 @@ import marked from 'marked'
 
 const dir = 'src/routes/blog'
 
-const files = fs.readdirSync(dir)
+const files = fs.readdirSync(dir).filter(val => val.match(/.+\.svx/))
 
 const posts = []
-
-function hello () {
-	
-}
 
 
 for (let file of files) {
 	file = fs.readFileSync(`${dir}/${file}`)
 
-	const { data: { title, slug, date }, content } = matter(file)
+	const { data: { title, slug, description, date }, content } = matter(file)
 
 	if (!title) continue
 
-
+	
 	file = {
 		title,
 		slug,
+		description,
 		date,
 		html: marked(content)
 	}

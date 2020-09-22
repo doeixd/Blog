@@ -14,8 +14,10 @@
 	"dependencies": {
 		"code-lightner": "^0.3.0",
 		"compression": "^1.7.1",
+		"dayjs": "^1.8.36",
 		"marked": "^1.1.0",
 		"polka": "next",
+		"rss": "^1.2.2",
 		"sirv": "^1.0.0"
 	},
 	"devDependencies": {

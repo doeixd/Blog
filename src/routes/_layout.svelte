@@ -9,8 +9,8 @@
 <style>
 	main {
 		position: relative;
-		max-width: 56em;
-		padding: 2rem 3ch 0 3ch;
+		max-width: 45em;
+		padding: 2rem 2ch 0 2ch;
 		margin: 0 auto;
 		font-family: monospace;
 	}

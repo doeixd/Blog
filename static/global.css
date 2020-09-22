@@ -7,14 +7,14 @@
 
 html {
   height: 100%;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 body {
 	margin: 0;
 	padding-top: 1.2ex;
 	font-family: Roboto, -apple-systrem, BlinkMacSystremFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	line-height: 1.5;
+	line-height: 1.4;
 	color: #f1f3ec;
 	height: calc(100% - 6px - 1rem);
 	background: #0a0e14
@@ -73,7 +73,7 @@ p {
   font-size: 1rem;
   text-indent: 4ch;
   margin-bottom: 1rem;
-  line-height: 1.8rem;
+  line-height: 1.6rem;
 }
 
 
@@ -111,7 +111,7 @@ pre {
 
 @media (min-width: 400px) {
   html {
-    font-size: 19px;
+    font-size: 20px;
   }
 }
 
