@@ -1,6 +1,7 @@
 <script context="module">
 	export function preload({ params, query }) {
-		return this.fetch(`blog.json`).then(r => r.json()).then(posts => {
+		return this.fetch('/blog/feed').then(() => { return this.fetch(`blog.json`)} ).then(r => r.json()).then(posts => {
+			
 			return { posts };
 		});
 	}
@@ -36,6 +37,7 @@
 </svelte:head>
 
 <h1>Recent posts</h1>
+<h4><a href='blog/feed'>RSS</a></h4>
 
 <ul>
 	{#each posts as post}

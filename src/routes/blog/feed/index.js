@@ -1,5 +1,4 @@
 import RSS from "rss";
-import dayjs from "dayjs";
 import posts from "../_posts";
 
 const feed = new RSS({
@@ -12,7 +11,7 @@ const feed = new RSS({
   copyright: `PWM Glenn 2020`,
   language: `en`,
   categories: [`tech`, `lifestyle`],
-  pubDate: dayjs().format(`dddd MMMM D, YYYY`),
+  pubDate: new Date().toUTCString(),
 });
 
 // console.log(posts)
