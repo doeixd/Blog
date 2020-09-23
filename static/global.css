@@ -7,7 +7,7 @@
 
 html {
   height: 100%;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 body {
@@ -111,7 +111,7 @@ pre {
 
 @media (min-width: 400px) {
   html {
-    font-size: 19px;
+    font-size: 20px;
   }
 }
 
